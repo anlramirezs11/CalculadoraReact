@@ -59,8 +59,12 @@
 }
 .Menu li {
   display: inline-block;
+}
+
+.Menu li:first-child{
   padding-right: 18px;
 }
+
 #Resultado {
   margin-right: 10px;
 }
