@@ -4,15 +4,7 @@ export default[
     url:'/'
   },
   {
-    title:'Blog',
-    url:'/blog'
+    title:'About Me',
+    url:'https://anlramirezs11.github.io/WebPage/'
   },
-  {
-    title:'About Us',
-    url:'/about'
-  },
-  {
-    title:'Contact Us',
-    url:'/contact'
-  }
 ];

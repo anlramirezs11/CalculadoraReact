@@ -22,7 +22,7 @@ export default class Header extends React.Component {
           <h2>{title}</h2>
           <img src={logo} className="logo" alt="logo"/>
           <ul className="Menu">
-            {items && items.map((item,key)=><li key={key}>{item.title}</li>)}
+            {items && items.map((item,key)=><li key={key}><a className="link" href={item.url} >{item.title}</a></li>)}
           </ul>
         </div>
       </div>

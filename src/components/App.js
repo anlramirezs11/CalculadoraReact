@@ -12,9 +12,9 @@ export default class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Header title="Ashara Studios" items={items}/>
+        <Header title="Calculadora en React" items={items}/>
         <Content/>
-        <Footer copyright="&copy; Ashara Studios 2017"/>
+        <Footer copyright="&copy; Andrea Ramírez 2017"/>
       </div>
     );
   }
